@@ -7,4 +7,7 @@ export default defineConfig({
     port: 8081,
   },
   plugins: [vue()],
+  build:{
+    outDir:'docs'
+  }
 });
